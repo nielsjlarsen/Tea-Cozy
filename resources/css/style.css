@@ -1,0 +1,177 @@
+html, body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: black;
+	font-family: Helvetica;
+	font-size: 22px;
+	color: seashell;
+	opacity: 0.9;
+	text-align: center;
+}
+
+div {
+  display: block;
+}
+
+header {
+	display: flex;
+	width: 100%;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	background-color: black;
+	position: fixed;
+	top: 0;
+	height: 69px;
+	border-bottom: 1px solid seashell;
+	z-index: 10;
+}
+
+
+.headerLogo {
+  padding-left: 10px;
+  height: 50px;
+}
+
+header>nav>span>a {
+	display: inline-block;
+	text-decoration: underline;
+	text-align: right;
+	color: seashell;
+	padding: 10px;
+}
+
+.mainContent {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	padding-top: 69px;
+}
+
+.topStory {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-image: url("../images/img-mission-background.jpg");
+	height: 700px;
+	width: 1200px;
+}
+
+.topStoryText {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	background-color: black;
+	margin-top: 140px;
+}
+
+.topStoryText h2,h4 {
+	margin: 10px;
+}
+
+.centerStory {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	width: 1000px;
+	padding: 50px 0px;
+}
+
+.centerText {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.centerText>h4 {
+  margin: 10px;
+}
+
+.centerImages {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.centerImages>span {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+  margin: 10px 15px;
+}
+
+.image {
+	height: 200px;
+	width: 300px;
+}
+
+.bottomStory {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	background-image: url("../images/img-locations-background.jpg");
+	background-repeat: no-repeat;
+	background-position: top;
+  padding-top: 75px;
+	height: 500px;
+	width: 1200px;
+}
+
+.bottomStory h2 {
+	margin: 0px auto 15px auto;
+}
+
+.bottomStoryText {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: stretch;
+}
+
+.bottomStoryTextItem {
+	background-color: black;
+	opacity: 1;
+  width: 300px;
+	margin: 0px 20px;
+}
+
+.bottomStoryTextItem h3 {
+	margin: 20px auto;
+}
+
+.bottomStoryTextItem p {
+	margin: 37px auto;
+}
+
+
+.footerTopText {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	height: 200px;
+}
+
+.footerTopText h2 {
+	margin: 10px 0px 20px 0px;
+}
+
+.footerTopText h5 {
+	margin: 20px 0px 0px 0px;
+}
+
+footer {
+	padding-left: 20px;
+	text-align: left;
+}
